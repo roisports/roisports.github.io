@@ -885,6 +885,18 @@ small,
   z-index: 1;
 }
 
+.bg-overlay-video:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  opacity: 0.7;
+  z-index: 1;
+}
+
 .social-color1 {
   color: #3c5a98;
 }
@@ -917,6 +929,10 @@ div[class*=-wrapper] {
 
 .bg-image3 {
   background: #ffffff url("../images/watch-video-bg.jpg") no-repeat fixed center/cover;
+}
+
+.bg-image-video-roi {
+  background: #ffffff url("../images/watch-video-roi-bg.jpg") no-repeat fixed center/cover;
 }
 
 /* ==============================================
